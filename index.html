@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Quiz</title>
+</head>
+<body>
+    <!-- header start -->
+    <header>
+        <h1>Javascript Quiz!</h1>
+    </header>
+    <!-- header end -->
+    <!-- body start -->
+    <section class="content-wrapper">
+            <h2 class="secondary-header">Welcome to the Quiz!</h2>
+            <section class="quiz-content">
+                <p>When you click the start button, you will have 60 seconds to answer 5 questions about JavaScript!</p>
+                <p>5 seconds will be subtracted from your time for each incorrect answer.</p>
+                <p>Good luck!</p>  
+                <button class="start-btn" id="start">Start</button>
+                
+            </section>
+            <section class="submit-score">
+                <p>To save your score, enter your initials in the box below.</p>
+                <form>
+                    <input type="text" name="userInitials" id="userInitials" placeholder="Enter your initials" />
+                    <button class="submit-btn" id="submit">Submit</button>
+                </form>
+            </section>
+            <section class="status" id="answer-correct">
+                <p>Correct!</p>
+            </section>
+            <section class="status" id="answer-incorrect">
+                <p>Incorrect!</p>
+            </section>
+    </section>
+    <!-- body end -->
+  
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
