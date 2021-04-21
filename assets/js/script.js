@@ -18,11 +18,11 @@ const questions = [
         correctAnswer: "A"
     },
     {
-        question: "Javascript is the same as Java",
+        question: "Inside which HTML element to we put the Javascript?",
         answers: {
-            A: "True",
-            B: "False",
-            C: ""
+            A: "<Javascript>",
+            B: "<script>",
+            C: "<js>"
         },
         correctAnswer: "B"
     },
