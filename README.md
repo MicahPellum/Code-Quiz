@@ -7,10 +7,10 @@ This is a timed quiz to test your knowledge on Javascript. You have 60 seconds t
 I built this quiz using Javascript, CSS, and HTML
 
 # Links
-Deployed Website:
+Deployed Website: 
 
 
-GitHub Repo:
+GitHub Repo:  https://github.com/MicahPellum
 
 # Images
 ![StartQuiz](https://user-images.githubusercontent.com/72360277/115887091-d382e380-a40e-11eb-99c3-3c09eebe35f2.PNG)
