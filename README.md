@@ -7,7 +7,7 @@ This is a timed quiz to test your knowledge on Javascript. You have 60 seconds t
 I built this quiz using Javascript, CSS, and HTML
 
 # Links
-Deployed Website: 
+Deployed Website: https://micahpellum.github.io/Code-Quiz/
 
 
 GitHub Repo:  https://github.com/MicahPellum
