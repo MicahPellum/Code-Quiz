@@ -4,6 +4,7 @@
     --color2: hsl(300, 78%, 34%);
     --color3: #460342;
     --color4: #360d34;
+    --color5: white;
 }
 /* body styling starts */
 * {
@@ -11,7 +12,7 @@
     margin: 0;
 }
 body {
-    background-color: white;
+    background-color: var(--color5);
     font-family: 'Raleway', sans-serif;
     font-weight: 250;
     font-size: 20px;
@@ -40,7 +41,7 @@ header {
 header h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
-    font-size: 45px;
+    font-size: 50px;
     text-align: center;
 
 }
@@ -79,7 +80,7 @@ header h1 {
     color: var(--color3);
     padding: 15px 15px;
     background: var(--color1);
-    border-radius: 12px;
+    border-radius: 15px 50px;
     margin: 8px auto;
 }
 .quiz-content ol {
@@ -90,7 +91,7 @@ header h1 {
 button {
     font-family:'Raleway', sans-serif;
     color: var(--color2);
-    margin: 20px auto;
+    margin: 15px auto;
     outline: none; 
     border: none;
     border-radius: 8px;
